@@ -191,6 +191,7 @@ height:100vh;
   /*border-radius: 20px;*/
   border: 2px solid rgb(255, 94, 0);
   box-shadow: 0px 10px 10px rgba(180, 106, 106, 0.3);
+  animation: glow 1s infinite; 
   
   
   
@@ -235,13 +236,11 @@ div:not(.parent){
     box-shadow: 0 0 5px rgb(0, 0, 0); 
   }
   to {
-    border-color: rgb(255, 0, 0); 
-    box-shadow: 0 0 20px rgb(255, 255, 254);
+    border-color: rgb(255, 255, 255); 
+    box-shadow: 0 0 20px rgb(196, 58, 23);
   }
 }
-.div7 :hover{
-  animation: glow 1s infinite; 
-}
+
 
 
 .div7{
@@ -300,18 +299,28 @@ body {
   height:45px;
 
 }
-
+.div3 img{
+  width:230px;
+  height:60px;
+  border:2px solid white;
+  z-index: 2;
+  position: relative;
+  left: -10px;
+}
+.div8 p{
+  line-height: 1.5;
+}
 </style>
 <body>
 <div class="parent">
    <div class="div1">  bottom  754 x 62 </div>
    <div class="div2"> div 2         </div>
-   <div class="div3"> para under image  225 x 159</div>
+   <div class="div3"> <img src="blinkiesCafe-zb.gif"></div>
    <div class="div4"> second place 451 x 159</div>
    <div class="div5"> <img src="blinkiesCafe-8J.gif"> </div>
    <div class="div6"> side 3 74 x 126 </div>
-   <div class="div7"> <img src="temp_pfp.jpg">  </div>
-   <div class="div8"><h1><u>About me</u><br><p>deez nuts.</p></h1></div>
+   <div class="div7"> <img src="pfp.png">  </div>
+   <div class="div8"><h1><u>About me</u><br><p>Hi, i am a passionate teen intrested in<br> exploreing the world of progremming and <br>3d modeling(blender)as well as some vfx<br><br>apart from that i am obsessed with <br> japaneese culture and vedio games </p></h1></div>
    <div class="div9"> <img src="blinkiesCafe-6T.gif"></div>
    <div class="div10"> </div>
    <div class="div11"> side 1  74 x 200 </div>
