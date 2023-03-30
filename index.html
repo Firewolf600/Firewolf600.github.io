@@ -4,6 +4,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> * { box-sizing: border-box; } </style>
+
 <title>firewolf</title>
 </head>
 
@@ -232,7 +235,7 @@ div:not(.parent){
 
 @keyframes glow {
   from {
-    border-color: rgb(255, 102, 0); /* gotta learn how this works more:D its fun */
+    border-color: rgb(0, 0, 0); /* gotta learn how this works more:D its fun */
     box-shadow: 0 0 5px rgb(0, 0, 0); 
   }
   to {
@@ -297,6 +300,10 @@ body {
 .div9 img{
   width: 220px;
   height:45px;
+  position:relative;
+  left:-9px;
+  top:13px;
+  
 
 }
 .div3 img{
@@ -330,12 +337,14 @@ body {
    <div class="div15"><button>button  </button></div>
    <div class="div16"><h1>Firewolf</h1></div>
 
-   <div class="transparent-box">testtttttttttttt</div>
-   <div class="transparent-box-2">testttttttttttttttttt</div>
-   <div class = "transparent-box-3">testttttttttttttttt</div>
+   <div class="transparent-box"><p>totally not the firewolf#3137</p></div>
+   <div class="transparent-box-2"></div>
+   <div class = "transparent-box-3"></div>
+   <div class="transparent-box-4"></div>
+   <div class="transparent-box-5"><img src="discord_icon.png"></div>
    <style>
     .transparent-box {
-  width: 30px;
+  width: 60px;
   height: 30px;
   z-index:1;
   position: relative;top: -350px;
@@ -345,6 +354,32 @@ body {
 
   
   
+}
+.transparent-box-5{
+  width:10px;
+  height:10px;
+  z-index:3;
+  position:relative;
+  top : -340px;
+  left:-130px;
+
+  
+}
+.transparent-box-5 img{
+  width:30px;
+  height:30px;
+  position:relative;
+  top: -30px;
+  left:-328px;
+  border-radius: 5px;
+}
+.transparent-box p{
+  width :300px;
+  height:20px;
+  position: relative;
+  top:-30px;
+  left:35px
+
 }
 .transparent-box-2{
   width: 30px;
@@ -377,8 +412,11 @@ body {
   width:220px;
   height:40px;
   position: relative;
-  left :10px
+  left :30px;
 }
+
+
+
    </style>
 
    </div>
@@ -386,7 +424,3 @@ body {
 </body>
 </html>
   
-
-
-
-
